@@ -83,6 +83,12 @@ const claimSteps: ClaimStep[] = [
 @color-text-weak: #999999;
 @color-link: #2878ff;
 
+.claim-section {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+}
+
 // 理赔步骤
 .claim-steps {
   display: flex;
@@ -154,6 +160,8 @@ const claimSteps: ClaimStep[] = [
     height: 11px;
     background: #FF7F00;
     border-radius: 50%;
+    display: inline-block;
+    margin: 11px 5px 0 0;
   }
 
   &__text {
@@ -166,6 +174,10 @@ const claimSteps: ClaimStep[] = [
       color: @color-text-weak;
       line-height: 34px;
     }
+  }
+
+  &__flex {
+    display: flex;
   }
 
   &__link {
