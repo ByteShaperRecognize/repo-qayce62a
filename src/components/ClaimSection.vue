@@ -87,7 +87,7 @@ const claimSteps: ClaimStep[] = [
 .claim-steps {
   display: flex;
   flex-direction: column;
-  gap: 0.933vw;
+  gap: 7px;
 
   &__icons {
     display: flex;
@@ -102,8 +102,8 @@ const claimSteps: ClaimStep[] = [
   }
 
   &__arrow {
-    width: 2.8vw;
-    height: 2.667vw;
+    width: 21px;
+    height: 20px;
     flex-shrink: 0;
     object-fit: contain;
   }
@@ -116,17 +116,17 @@ const claimSteps: ClaimStep[] = [
   &__label {
     font-family: @font-pingfang;
     font-weight: 400;
-    font-size: 3.2vw;
+    font-size: 24px;
     color: #494949;
-    line-height: 4.533vw;
+    line-height: 34px;
     text-align: center;
     flex: 1;
   }
 }
 
 .claim-step-icon {
-  width: 12vw;
-  height: 12vw;
+  width: 90px;
+  height: 90px;
 
   img {
     width: 100%;
@@ -139,19 +139,19 @@ const claimSteps: ClaimStep[] = [
 .claim-channels {
   display: flex;
   align-items: flex-start;
-  gap: 0.667vw;
+  gap: 5px;
 
   &__dots {
     display: flex;
     flex-direction: column;
-    gap: 4.533vw;
-    padding-top: 1.333vw;
+    gap: 34px;
+    padding-top: 10px;
     flex-shrink: 0;
   }
 
   .dot {
-    width: 1.467vw;
-    height: 1.467vw;
+    width: 11px;
+    height: 11px;
     background: #FF7F00;
     border-radius: 50%;
   }
@@ -162,9 +162,9 @@ const claimSteps: ClaimStep[] = [
     p {
       font-family: @font-pingfang;
       font-weight: 400;
-      font-size: 3.2vw;
+      font-size: 24px;
       color: @color-text-weak;
-      line-height: 4.533vw;
+      line-height: 34px;
     }
   }
 
